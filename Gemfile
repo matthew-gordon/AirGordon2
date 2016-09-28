@@ -15,6 +15,8 @@ gem 'devise'
 gem 'toastr-rails'
 gem 'figaro'
 gem 'sendgrid-rails', '~> 2.0', '>= 2.0.5'
+gem 'omniauth'
+gem 'omniauth-facebook'
 
 group :development, :test do
   gem 'byebug', platform: :mri
