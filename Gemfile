@@ -13,6 +13,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'devise'
 gem 'toastr-rails'
+gem 'figaro'
+gem 'sendgrid-rails', '~> 2.0', '>= 2.0.5'
 
 group :development, :test do
   gem 'byebug', platform: :mri
